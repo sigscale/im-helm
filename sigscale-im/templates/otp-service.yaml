@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: {{ .Release.Name }}-otp-im
+  labels:
+    {{- include "sigscale-im.labels" . | nindent 4 }}
+spec:
+  selector:
+    {{- include "sigscale-im.selectorLabels" . | nindent 6 }}
+  type: ClusterIP
+  clusterIP: None

@@ -1,6 +1,6 @@
 apiVersion: v2
 name: sigscale-im
-version: 1.0.0
+version: 1.0.1
 description: "SigScale RIM (Resource Inventory Management)"
 type: application
 keywords:
@@ -25,10 +25,8 @@ appVersion: "2.1.0-1"
 annotations:
   artifacthub.io/category: networking
   artifacthub.io/changes: |
-    - kind: fixed
-      description: image annotation
     - kind: added
-      description: Signed chart package
+      description: desciption
   artifacthub.io/images: |
     - name: im
       image: sigscale/im:2.1.0-1

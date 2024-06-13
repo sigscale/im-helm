@@ -21,7 +21,7 @@ maintainers: # (optional)
     email: issues@sigscale.com
     url: https://sigscale.org/contact
 icon: https://sigscale.org/esm-bundled/images/manifest/icon-96x96.png
-appVersion: "2.0.5-1"
+appVersion: "2.1.0-1"
 annotations:
   artifacthub.io/category: networking
   artifacthub.io/changes: |
@@ -31,7 +31,7 @@ annotations:
       description: Signed chart package
   artifacthub.io/images: |
     - name: im
-      image: sigscale/im:2.0.5-1
+      image: sigscale/im:2.1.0-1
       platforms:
         - linux/amd64
   artifacthub.io/license: Apache-2.0

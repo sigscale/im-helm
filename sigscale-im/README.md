@@ -7,10 +7,10 @@ and TMFC012 Components of the TM Forum Open Digital Architecture
 ## Resources
 The information model is based on TM Forum SID and 3GPP Network
 Resource Models (NRM). The catalog is populated with specifications
-representing the entities of the 3GPP NRMs as well as ETSI MEC
-and TM Forum ODA.  The inventory contains dynamically created
-representations of the intantiated resources provided by this
-software application, obtained through self relection.
+representing the entities of the 3GPP NRMs as well as ETSI MEC and
+TM Forum ODA. The inventory is dynamically populated by entities
+representing the instantiated instance of this software application,
+obtained through self reflection.
 
 ## REST
 The core functions of the TMFC010 and TMFC012 ODA Components
